@@ -1,0 +1,12 @@
+<html>
+<body>
+<a href="#" onclick="go">test</a>
+<script>
+function go(){
+    city = 'Москва';
+    url = '?city=' + encodeURIComponent(city);
+    document.location.href = url;
+}
+</script>
+</body>
+</html>
